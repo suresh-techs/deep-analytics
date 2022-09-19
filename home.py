@@ -8,7 +8,7 @@ def isValid(number):
     except:
         print("Invalid value to convert to number")
 
-    if(num>0 and num<=1000):
+    if(num<=1000):
         return True
     else:
         return False
