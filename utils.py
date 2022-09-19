@@ -1,7 +1,7 @@
+def capitalize(name:str):
+    return name.upper()
+    
 def analyse():
     """This method is used to analyse the data"""
-    if True:
-        print "Yes I will analyse the data"
-    else:
-        print "I will not analyse the data"
-    pass
+    languages = ["html","css","js"]
+    return list(map(capitalize,languages))
